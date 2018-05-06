@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textView2"
+    android:text="TextView"
+    android:textSize="12dp"
+    android:textAlignment="center"
+    android:fontFamily="@font/regular"
+    android:textColor="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</TextView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:alignContent="center"
+    app:justifyContent="center"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/ripple_list_item">
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/light"
+        android:textSize="18dp"
+        android:id="@+id/txtItemSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_flexGrow="6"
+        android:text="Mã Coupon" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_flexGrow="1"
+        android:id="@+id/imgItemSetting"/>
+</com.google.android.flexbox.FlexboxLayout>

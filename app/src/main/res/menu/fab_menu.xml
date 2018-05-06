@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share_link"
+        android:icon="@drawable/ic_share_link"
+        android:title="Chia sẻ đường dẫn" />
+    <item
+        android:id="@+id/action_share_qrcode"
+        android:icon="@drawable/ic_share_qrcode"
+        android:title="Tạo mã QR Code"/>
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/ripple_list_item"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgProductLV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/txtTitleProduct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/medium"
+        android:text="AAAA"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imgProductLV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/txtDiscountProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="158dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="8dp"
+        android:text="AAAA"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtPriceProduct"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleProduct"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/txtPriceProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="AAAA"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/imgProductLV"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleProduct" />
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/txtCommission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgProductLV"
+        app:layout_constraintTop_toBottomOf="@+id/txtPriceProduct" />
+</android.support.constraint.ConstraintLayout>

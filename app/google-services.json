@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "213511633046",
+    "firebase_url": "https://e-money-e27296.firebaseio.com",
+    "project_id": "e-money-e27296",
+    "storage_bucket": "e-money-e27296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213511633046:android:c98348cd449936be",
+        "android_client_info": {
+          "package_name": "com.it.sonh.affiliate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213511633046-vnp7ba51452stjp0lcso63s2r20eqi70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.it.sonh.affiliate",
+            "certificate_hash": "d246bf7fc99c7cef908ab05304f625b3b7722e48"
+          }
+        },
+        {
+          "client_id": "213511633046-v4soeup2ovffdobu1athrbp3gan3h1gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkvCK7p4yJxG44vB4ZNXq-IpC21sO57j0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213511633046-v4soeup2ovffdobu1athrbp3gan3h1gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

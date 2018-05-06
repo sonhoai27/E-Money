@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_marginRight="8dp"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_primary_dark"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/prdImageHotLink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorWhite"
+        android:maxLength="25"
+        android:textSize="13dp"
+        android:fontFamily="@font/light"
+        android:text="AAAA"
+        android:id="@+id/prdTitleHotLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        app:justifyContent="space_between"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:text="AAAA"
+            android:textSize="13dp"
+            android:id="@+id/prdShareHotLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/colorWhite"
+            android:text="AAAA"
+            android:textSize="13dp"
+            android:id="@+id/prdBuyerHotLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.google.android.flexbox.FlexboxLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/txtProductCom"
+        android:text="AHHA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

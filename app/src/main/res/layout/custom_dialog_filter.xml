@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@drawable/bg_light"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="@font/regular"
+        android:textSize="16dp"
+        android:background="@drawable/ripple_list_item"
+        android:clickable="true"
+        android:padding="15dp"
+        android:tag="asc"
+        android:text="Đã thanh toán"
+        android:id="@+id/filterDTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="@font/regular"
+        android:textSize="16dp"
+        android:background="@drawable/ripple_list_item"
+        android:clickable="true"
+        android:padding="15dp"
+        android:tag="asc"
+        android:text="Chưa thanh toán"
+        android:id="@+id/filterCTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="@font/regular"
+        android:textSize="16dp"
+        android:clickable="true"
+        android:background="@drawable/ripple_list_item"
+        android:padding="15dp"
+        android:tag="desc"
+        android:text="Từ mới tới cũ"
+        android:id="@+id/filterDESC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="@font/regular"
+        android:textSize="16dp"
+        android:background="@drawable/ripple_list_item"
+        android:clickable="true"
+        android:padding="15dp"
+        android:tag="asc"
+        android:text="Từ cũ tới mới"
+        android:id="@+id/filterASC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
